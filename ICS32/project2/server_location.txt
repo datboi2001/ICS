@@ -1,0 +1,44 @@
+Hi all,
+
+In line with what we'll begin talking about in lecture on Tuesday --
+and what you'll be doing in Project #2 -- there are a handful of
+servers running on one of the machines in the ICS building, which
+you can connect to and experiment with (and one of which forms the
+basis of your work in Project #2).
+
+Those servers are all running on this machine:
+
+    circinus-32.ics.uci.edu
+
+There are servers listening on a few ports on that machine:
+
+* The "echo" server from tomorrow's lecture is listening on port
+5151
+
+* A couple of variants of "echo" (which read a line and respond with
+a line, but don't just send back exactly what you sent to them) are
+listening on ports 5150 and 5152
+
+* The "polling" server, which we'll see later in the week (or
+perhaps on Tuesday, at least a little bit), is listening on port
+5501
+
+* The Connect Four server from Project #2 is listening on port 4444
+
+Please note what's written in the notes and in the Project #2
+write-up about circinus-32.ics.uci.edu *not* being accesible outside
+of the campus network (and this includes some areas on campus,
+including some residential areas, and even sometimes on the UCInet
+Mobile Access wi-fi network!), so if you're unable to connect to any
+of these servers, the first thing to try is the Campus VPN (see the
+notes and Project #2 write-up) before contacting us and asking us
+why the server isn't running.
+
+If you're connected via the Campus VPN -- the "Software VPN", not
+the web-only one that runs in a browser -- and you still can't
+connect to the servers, that's something we want to know about,
+because it probably means the servers have been shut down and I need
+to restart them (this happens occasionally, but is fairly rare).
+But please use the VPN before reporting a connectivity issue; 90+%
+of the mails I get about connectivity issues are not because the
+servers are down, but because of the need for the VPN.
